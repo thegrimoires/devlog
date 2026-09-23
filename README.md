@@ -9,6 +9,13 @@ Short posts, real numbers, including what didn't work.
 | # | Title | Topic |
 |---|---|---|
 | 001 | [A calibrated classifier in front of an LLM game master](001-classifier-in-front-of-llm-game-master.md) | Routing easy turns to a decision model: 420 ms instead of 9 s, 0 wrong moves |
+| 002 | [Why our prompt cache never passed 50%](002-prompt-cache-never-passed-50-percent.md) | Implicit prefix caching in production: DeepSeek, MiniMax, Gemini, an 8k plateau, three hypotheses |
+| 003 | [Put the rules last](003-put-the-rules-last.md) | Tool result design: data first, rules last, paraphrase from 1,000+ to ~150 characters |
+| 004 | [When eight models fail at the same spot, fix the prompt](004-when-eight-models-fail-at-the-same-spot.md) | Cross-model divergence as a prompt bug detector |
+| 005 | ["Which" beats "whether"](005-which-beats-whether.md) | What a decision model can and can't decide: 44/44 vs 0/13 |
+| 006 | [Length is where invention grows](006-length-is-where-invention-grows.md) | Why the GM made up a whole night, and three levers against it |
+| 007 | [A second opinion at build time](007-a-second-opinion-at-build-time.md) | Finding executable bugs in LLM-generated data for ~$0.15 |
+| 008 | [LLM fallback before the first token](008-llm-fallback-before-the-first-token.md) | Switching provider on failure without the player noticing |
 
 ## What we're building
 
